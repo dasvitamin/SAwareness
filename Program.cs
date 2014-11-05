@@ -29,7 +29,7 @@ namespace SAwareness
         public static MenuItemSettings RelictTimer = new MenuItemSettings(); //Works
         public static MenuItemSettings HealthTimer = new MenuItemSettings(); //Works
         public static MenuItemSettings InhibitorTimer = new MenuItemSettings(); //Works
-        public static MenuItemSettings SummonerTimer = new MenuItemSettings(); //Works
+       public static MenuItemSettings SummonerTimer = new MenuItemSettings(); //Works
         public static MenuItemSettings Health = new MenuItemSettings(typeof (Health));
         public static MenuItemSettings TowerHealth = new MenuItemSettings(); //Missing HPBarPos
         public static MenuItemSettings InhibitorHealth = new MenuItemSettings(); //Works
@@ -248,6 +248,7 @@ namespace SAwareness
                 var menu = new LeagueSharp.Common.Menu("SAwareness", "SAwareness", true);
 
                 //Not crashing
+                /*
                 Menu.Timers.Menu = menu.AddSubMenu(new LeagueSharp.Common.Menu("Timers", "SAwarenessTimers"));
                 Menu.Timers.MenuItems.Add(
                     Menu.Timers.Menu.AddItem(
@@ -292,8 +293,11 @@ namespace SAwareness
                     Menu.SummonerTimer.Menu.AddItem(new MenuItem("SAwarenessSummonerTimersActive", "Active").SetValue(false)));
                 Menu.Timers.MenuItems.Add(
                     Menu.Timers.Menu.AddItem(new MenuItem("SAwarenessTimersActive", "Active").SetValue(false)));
+                */
 
-                //Not crashing
+
+                //Not crashing 
+                /*
                 Menu.Range.Menu = menu.AddSubMenu(new LeagueSharp.Common.Menu("Ranges", "SAwarenessRanges"));
                 Menu.ExperienceRange.Menu =
                     Menu.Range.Menu.AddSubMenu(new LeagueSharp.Common.Menu("ExperienceRange",
@@ -358,8 +362,10 @@ namespace SAwareness
                     Menu.SpellRRange.Menu.AddItem(new MenuItem("SAwarenessSpellRRangeActive", "Active").SetValue(false)));
                 Menu.Range.MenuItems.Add(
                     Menu.Range.Menu.AddItem(new MenuItem("SAwarenessRangesActive", "Active").SetValue(false)));
+                */
 
                 //Not crashing
+                /*
                 Menu.Tracker.Menu = menu.AddSubMenu(new LeagueSharp.Common.Menu("Tracker", "SAwarenessTracker"));
                 Menu.WaypointTracker.Menu =
                     Menu.Tracker.Menu.AddSubMenu(new LeagueSharp.Common.Menu("WaypointTracker",
@@ -483,8 +489,11 @@ namespace SAwareness
                     Menu.Killable.Menu.AddItem(new MenuItem("SAwarenessKillableActive", "Active").SetValue(false)));
                 Menu.Tracker.MenuItems.Add(
                     Menu.Tracker.Menu.AddItem(new MenuItem("SAwarenessTrackerActive", "Active").SetValue(false)));
+                */
+
 
                 //Not crashing
+                /*
                 Menu.Detector.Menu = menu.AddSubMenu(new LeagueSharp.Common.Menu("Detector", "SAwarenessDetector"));
                 Menu.VisionDetector.Menu =
                     Menu.Detector.Menu.AddSubMenu(new LeagueSharp.Common.Menu("VisionDetector",
@@ -517,6 +526,7 @@ namespace SAwareness
                         new MenuItem("SAwarenessRecallDetectorActive", "Active").SetValue(false)));
                 Menu.Detector.MenuItems.Add(
                     Menu.Detector.Menu.AddItem(new MenuItem("SAwarenessDetectorActive", "Active").SetValue(false)));
+                */
 
                 //Not crashing
                 Menu.Ganks.Menu = menu.AddSubMenu(new LeagueSharp.Common.Menu("Ganks", "SAwarenessGanks"));
@@ -556,6 +566,7 @@ namespace SAwareness
                     Menu.Ganks.Menu.AddItem(new MenuItem("SAwarenessGanksActive", "Active").SetValue(false)));
 
                 //Not crashing
+                /*
                 Menu.Health.Menu =
                     menu.AddSubMenu(new LeagueSharp.Common.Menu("Object Health", "SAwarenessObjectHealth"));
                 Menu.TowerHealth.Menu =
@@ -608,7 +619,8 @@ namespace SAwareness
                         new MenuItem("SAwarenessInvisibleRevealerActive", "Active").SetValue(false)));
                 Menu.Wards.MenuItems.Add(
                     Menu.Wards.Menu.AddItem(new MenuItem("SAwarenessWardsActive", "Active").SetValue(false)));
-
+                */
+                /*
                 Menu.Activator.Menu = menu.AddSubMenu(new LeagueSharp.Common.Menu("Activator", "SAwarenessActivator"));
                 Menu.ActivatorAutoSummonerSpell.Menu =
                     Menu.Activator.Menu.AddSubMenu(new LeagueSharp.Common.Menu("Auto Summoner Spells",
@@ -1052,6 +1064,8 @@ namespace SAwareness
                     Menu.AutoShield.Menu.AddItem(new MenuItem("SAwarenessAutoShieldActive", "Active").SetValue(false)));
                 Menu.AutoPot.Menu =
                     Menu.Activator.Menu.AddSubMenu(new LeagueSharp.Common.Menu("AutoPot", "SAwarenessAutoPot"));
+                 * 
+
                 tempSettings = Menu.AutoPot.AddMenuItemSettings("HealthPot",
                     "SAwarenessAutoPotHealthPot");
                 tempSettings.MenuItems.Add(
@@ -1260,6 +1274,7 @@ namespace SAwareness
                     Menu.FlashJuke.Menu.AddItem(new MenuItem("SAwarenessFlashJukeRecall", "Recall").SetValue(false)));
                 Menu.FlashJuke.MenuItems.Add(
                     Menu.FlashJuke.Menu.AddItem(new MenuItem("SAwarenessFlashJukeActive", "Active").SetValue(false)));
+                 */
 
                 Menu.GlobalSettings.Menu =
                     menu.AddSubMenu(new LeagueSharp.Common.Menu("Global Settings", "SAwarenessGlobalSettings"));
